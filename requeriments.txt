@@ -7,6 +7,7 @@ django-filter==25.2
 djangorestframework==3.18.0
 docker==7.2.0
 drf-yasg==1.21.15
+Faker==40.38.0
 idna==3.19
 inflection==0.5.1
 Markdown==3.10.3
@@ -20,3 +21,4 @@ sqlparse==0.6.0
 tzdata==2026.3
 uritemplate==4.2.0
 urllib3==2.7.0
+validate-docbr==2.0.0

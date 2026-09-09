@@ -2,6 +2,7 @@ from escola.models import Estudante,Curso, Matricula
 from escola.serializers import EstudanteSerializer,CursoSerializer, MatriculaSerializer, ListaMatriculasEstudanteSerializer, ListaMatriculasCursoSerializer, EstudanteSerializerV2
 from rest_framework import viewsets, generics, filters
 from importlib import import_module
+from django_filters.rest_framework import DjangoFilterBackend
 
 DjangoFilterBackend = import_module("django_filters.rest_framework").DjangoFilterBackend
 from rest_framework.throttling import UserRateThrottle
